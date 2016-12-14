@@ -1,0 +1,15 @@
+<?php
+/**
+ * @file
+ * This module helps set some content type defaults that are always being changed on new content type creation page.
+ */
+
+function content_type_defaults_init() {
+
+	if (path_is_admin(current_path())) {
+		$path = drupal_get_path('module', 'content_type_defaults');
+		drupal_add_js($path . '/content-type-defaults.js');
+		drupal_add_css($path . '/content-type-defaults.css');
+	}
+
+}

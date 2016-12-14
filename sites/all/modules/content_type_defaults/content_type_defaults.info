@@ -1,0 +1,7 @@
+name = Content Type Default Settings
+description = Sets some default content type settings.
+core = 7.x
+
+version = 7.x-1.0
+
+package = MB Toolkit
