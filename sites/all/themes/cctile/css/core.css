@@ -1,0 +1,454 @@
+/* CSS Document */
+/* ----- CORE STYLES ----- */
+:root {
+font-size: 16px;
+line-height: 1.75em;
+color: #505759;
+}
+
+html, body {
+overflow-x: hidden;
+-webkit-text-size-adjust: none;
+}
+
+body {
+position: relative;
+}
+
+.italic { font-style: italic; }
+.reg { font-style: normal; }
+.normal { font-weight: normal; }
+.light { font-weight: 100; }
+.bold { font-weight: 700; }
+.lowercase { text-transform: lowercase; }
+.uppercase { text-transform: uppercase; }
+
+.alignLeft { text-align: left; }
+.alignCenter { text-align: center; }
+.alignRight { text-align: right; }
+.vertMid { vertical-align: middle; }
+.inBlock {
+display: inline-block;
+vertical-align: top;
+}
+
+a {
+text-decoration: none;
+transition: 0.2s;
+color: #00afd7;
+}
+
+a:hover,
+a:focus,
+a:active {
+color: #002f64;
+}
+
+ul,
+ul li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+img {
+max-width: 100% !important;
+height: auto !important;
+}
+
+hr {
+color: #f6f6f6;
+border: 0;
+height: 2px;
+background: #e8e8e8;
+margin: 2em 0;
+position: relative;
+}
+
+h1, h2, h3 {
+font-size: 1.9rem;
+line-height: 1.25em;
+font-weight: bold;
+color: #003764;
+margin-bottom: 1em;
+}
+
+h2 {
+font-size: 1.5rem;
+}
+
+h3 {
+font-size: 1.2rem;
+}
+
+* ~ h1, * ~ h2, * ~ h3 {
+margin-top: 1em;
+}
+
+small {
+font-size: 0.8em;
+}
+
+.btn {
+display: inline-block;
+background: #00afd7;
+color: #fff;
+padding: 0.25em 2.5em;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active,
+a.btn:hover,
+a.btn:active {
+background: #002f64;
+color: #fff;
+}
+
+.views-field-edit-node a {
+background: #00afd7;
+color: #fff;
+font-size: 0.9em;
+padding: 0.1em 0.5em;
+text-transform: lowercase;
+border-radius: 3px;
+line-height: 1;
+}
+
+.item-list {
+margin-top: 3em;
+text-align: center;
+}
+
+.item-list ul.pager,
+.item-list ul.pager li {
+padding: 0;
+margin: 0;
+display: inline-block;
+vertical-align: middle;
+font-size: 1em;
+line-height: 1.4;
+}
+
+.item-list ul.pager li {
+margin: 0 0.25em;
+}
+
+.item-list ul.pager li.pager-current {
+background: #333;
+padding: 0.1em 0.5em;
+font-size: 1.25em;
+color: #fff;
+border-radius: 3px;
+}
+
+.item-list ul.pager li a {
+background: #eee;
+padding: 0.1em 0.5em;
+margin: 0;
+float: none;
+border-radius: 3px;
+}
+
+
+/* ---------- OVERALL ---------- */
+.pageWrapOuter {
+background: #fff;
+}
+
+.pageWrap {
+max-width: 1120px;
+margin: 0 auto;
+}
+
+
+/* ---------- HEADER ---------- */
+.headerWrapOuter {
+background: #ade7f5; /* Old browsers */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ade7f5+0,01b5df+100 */
+background: rgb(173,231,245); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(173,231,245,1) 0%, rgba(1,181,223,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(173,231,245,1) 0%,rgba(1,181,223,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(173,231,245,1) 0%,rgba(1,181,223,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ade7f5', endColorstr='#01b5df',GradientType=0 ); /* IE6-9 */
+position: relative;
+z-index: 1;
+padding: 2em;
+margin: 0;
+text-align: center;
+border-bottom: 5px solid #f1c400;
+position: relative;
+z-index: 2;
+}
+
+.headerWrap {
+max-width: 1120px;
+margin: 0 auto;
+position: relative;
+text-align: center;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.siteLogo img {
+height: 9em !important;
+width: auto !important;
+}
+
+
+/* ------------------------------------------- CONTENT WRAP --- */
+.contentWrap {
+padding: 3em 0 7.2em;
+position: relative;
+z-index: 1;
+}
+
+.not-front .contentWrap {
+z-index: 0;
+}
+
+@media (max-width: 750px) {
+.contentWrap {
+padding: 3em 5% 7.2em;
+}
+}
+
+@media (max-width: 600px) {
+.contentWrap {
+padding-bottom: 4em;
+}
+}
+
+.contentWrap * + p {
+margin-top: 1em;
+}
+
+.contentArea ul {
+max-width: 70%;
+}
+
+.contentArea ul,
+.contentArea ul li {
+list-style: none;
+padding: 0;
+margin: 0 0 0 1em;
+}
+
+.contentArea * ~ ul {
+margin-top: 1em !important;
+}
+
+.contentArea ul li {
+margin-bottom: 0.5em;
+font-size: 0.9em;
+}
+
+.contentArea ul li:before {
+content: '\f054';
+font-family: 'FontAwesome';
+float: left;
+margin-left: -1.25em;
+}
+
+.sectionNews .contentArea ul li:before {
+content: '';
+}
+
+.contentArea,
+.sidebarArea {
+display: inline-block;
+vertical-align: top;
+}
+
+.contentArea {
+width: 90%;
+padding: 0 5%;
+}
+
+.contentArea.hasSidebar {
+width: 54%;
+}
+
+.sidebarArea {
+width: 35%;
+}
+
+.not-front .sidebarArea {
+width: 30%;
+padding: 0 2.5%;
+}
+
+@media (max-width: 750px) {
+.contentArea,
+.contentArea.hasSidebar,
+.not-front .sidebarArea {
+width: 95%;
+padding: 0 2.5%;
+}
+
+.sidebarArea {
+margin-top: 3em;
+width: 100%;
+}
+}
+
+.sidebarArea .block {
+margin-bottom: 2em;
+}
+
+.prefooter {
+max-width: 1120px;
+margin: 0 auto;
+text-align: center;
+}
+
+
+/* ----- LEGACYRX OVERLAY MESSAGE ----- */
+.overlayWrap {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: #fff;
+background: rgba(255,255,255,0.9);
+z-index: 1000;
+}
+
+.overlayBox {
+position: absolute;
+top: 20%;
+left: 50%;
+width: 40%;
+margin-left: -25%;
+background: #f7f7f7;
+border: 1px solid #ddd;
+z-index: 1000;
+padding: 5%;
+box-shadow: 0px 2px 10px #ccc;
+}
+
+@media (max-width: 600px) {
+.overlayBox {
+top: 10%;
+left: 20%;
+width: 80%;
+margin-left: -15%;
+}
+}
+
+a.overlayClose {
+position: absolute;
+top: -5%;
+right: -2%;
+font-size: 1.5em;
+line-height: 1;
+background: #666;
+color: #fff;
+border-radius: 50%;
+padding: 0.25em 0.45em 0.35em;
+text-align: center;
+}
+
+a.overlayClose:hover {
+background: #444;
+}
+
+
+/* ----------------------------------------------- FooterNav Sections --- */ 
+.footerWrapOuter {
+position: relative;
+background: #ade7f5; /* Old browsers */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ade7f5+0,01b5df+100 */
+background: rgb(173,231,245); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(173,231,245,1) 0%, rgba(1,181,223,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(173,231,245,1) 0%,rgba(1,181,223,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(173,231,245,1) 0%,rgba(1,181,223,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ade7f5', endColorstr='#01b5df',GradientType=0 ); /* IE6-9 */
+overflow: hidden;
+text-align: center;
+}
+
+.footerWrap {
+max-width: 1120px;
+margin: 0 auto;
+padding: 6em 5% 4.875em;
+position: relative;
+color: #333;
+}
+
+.footerSect {
+display: inline-block;
+vertical-align: top;
+width: 22%;
+padding-left: 2%;
+}
+
+@media (max-width: 690px) {
+.footerSect {
+width: 45%;
+}
+
+.tlcNewOrleans,
+.tlcOrlando {
+margin-top: 3em;
+}
+}
+
+@media (max-width: 440px) {
+.footerSect {
+width: 100%;
+padding-left: 0;
+}
+
+.happenings {
+margin-top: 1em;
+}
+}
+
+.patientAssist a,
+.happenings a {
+color: #003da5;
+}
+
+.patientAssist a:hover,
+.happenings a:hover {
+color: #333;
+}
+
+.patientAssist li + li,
+.happenings li + li {
+margin-top: 1em;
+}
+
+.footerTitle {
+margin-bottom: 1em;
+font-weight: bold;
+}
+
+.siteInfo {
+margin-top: 6.44em;
+}
+
+@media (max-width: 500px) {
+.siteInfo {
+margin-top: 3em;
+}
+}
+
+.siteInfo,
+.siteInfo a {
+color: #333;
+font-size: 0.875rem;
+}
+
+.siteInfo a {
+text-decoration: underline;
+}
+
+.siteInfo a:hover {
+color: #b7ff5d;
+}

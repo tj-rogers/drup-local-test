@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/* --------------------------------------------- UNPUBLISHED NODES -- */
+.node-unpublished {
+background: none;
+border-top: 2px solid #c00;
+position: relative;
+}
+
+.node-unpublished:before {
+position: absolute;
+top: 0;
+left: 0;
+content: 'Not Published';
+padding: 0.1em 0.35em;
+background: #c00;
+color: #fff;
+font-size: 0.7em;
+}

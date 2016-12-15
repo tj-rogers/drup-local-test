@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+author: FliteHaus Creative Agency
+date modified: October 3, 2012
+type: core css
+
+
+/* ----- Reset all CSS ----- */
+.redNote {
+  padding:5px;
+  background-color:#990000;
+  color:#FFFFFF;
+  font-weight:bold;
+}
+
+/* ----- Reset all CSS ----- */
+  
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, fieldset, form, label, legend, caption, tbody, tfoot, thead { margin : 0; padding : 0; outline : 0; border : 0; background: transparent; vertical-align: baseline; font-weight : inherit; font-style : inherit; font-size : 100%; font-family : inherit; }
+
+/* ----- floats ----- */
+
+.fltRight {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+.fltLeft {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+.clearfloat {
+  clear:both;
+  height:0;
+  font-size: 1px;
+  line-height: 0px;
+}
+
+/* ----- form styles ----- */
+.grippie {
+display: none !important;
+}
+
+
+/* ----- Drupal Persistent Page Styles ----- */
+/* ---------- D7 Admin Toolbar ---------- */
+#admin-menu { margin: 0; }
+
+/* ------- Drupal Tabs (View/Edit/Etc) ------- */
+ul.tabs.primary,
+ul.tabs.primary li {
+padding: 0;
+margin: 0;
+list-style: none;
+border: 0;
+}
+
+ul.tabs.primary {
+padding: 0;
+max-width: 1400px;
+margin: 1em auto;
+}
+
+ul.tabs.primary li {
+display: inline-block;
+}
+
+ul.tabs.primary li a {
+font-size: 0.9em;
+padding: 0.5em 0.75em;
+border: 0 !important;
+text-transform: uppercase;
+}
+
+ul.tabs.primary li a.active {
+background: none;
+color: #00808e;
+font-weight: bold;
+}

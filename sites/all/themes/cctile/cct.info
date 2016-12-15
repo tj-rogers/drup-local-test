@@ -1,0 +1,29 @@
+name = Chartier Ceramic Tile Theme
+description = Custom theme for Chartier Ceramic Tile by <a href="http://www.terrancejrogers.com">TJ Rogers Design</a>
+
+core = 7.x
+engine = phptemplate
+
+screenshot = screenshot.png
+
+regions[topnav] = Top Nav
+regions[feature] = Feature
+regions[contenttop] = Content Top
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[prefooter] = PreFooter
+regions[footer] = Footer
+
+stylesheets[all][] = css/drupal-core.css
+stylesheets[all][] = css/core.css
+stylesheets[all][] = css/home.css
+stylesheets[all][] = css/nav.css
+stylesheets[all][] = css/sub.css
+stylesheets[all][] = css/forms.css
+
+stylesheets[all][] = css/products.css
+stylesheets[all][] = css/projects.css
+stylesheets[all][] = css/about.css
+stylesheets[all][] = css/news.css
+
+scripts[] = js/cct.js
