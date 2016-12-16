@@ -120,15 +120,88 @@
 			</div>
 		</div><!-- end of contentWrap -->
 	</div><!-- end of pageWrap -->
-	
-	<div class="prefooter">
-        
-	</div><!-- end of prefooter -->
-	
 </div><!-- end of pageWrapOuter -->
 
-<div class="footerWrapOuter">
-	<div class="footerWrap alignCenter">
-	   <p class="siteInfo">©<?php echo date("Y"); ?> Chartier Ceramic Tile. All rights reserved.</p>
+<div class="prefooter">
+		<div class="testimonial">
+			<div class="testimonial-slider-controls">
+				<i class="fa fa-arrow-circle-left testimonial-slider-control-prev" aria-hidden="true"></i>
+				<i class="fa fa-arrow-circle-right testimonial-slider-control-next" aria-hidden="true"></i>
+			</div>	
+			<p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium. Nullam mollis. Ut justo. </p>
+
+			<div class="testimonial-author">
+				<img class="testimonial-pic" src="IMAGE" />
+				<p class="testimonial-name-type">
+					<span class="testimonial-name">Michelle Waters</span>
+					<span class="testimonial-type">Residential Home</span>
+				</p>
+			</div>
+
+			<div class="testimonial-slider-selector">
+				<i class="fa fa-circle" aria-hidden="true"></i>
+				<i class="fa fa-circle selector-active" aria-hidden="true"></i>
+				<i class="fa fa-circle" aria-hidden="true"></i>
+			</div>
+		</div>
+	</div><!-- end of prefooter -->
+
+<div class="footer-wrap-outer">
+	<div class="footerWrap">
+		<div class="footer-nav">
+			<div class="footer-nav-section">
+				<h2>Quicklinks</h2>
+
+				<ul>
+					<li>Products</li>
+					<li>Projects</li>
+					<li>About</li>
+					<li>Blog</li>
+					<li>Contact</li>
+				</ul>
+			</div>
+
+			<div class="footer-nav-section">
+				<h2>Products</h2>
+
+				<ul>
+					<li>Wood Tile</li>
+					<li>Ceramic Tile</li>
+					<li>Wall Tile</li>
+					<li>Backsplash</li>
+					<li>Outdoor Tile</li>
+				</ul>
+			</div>
+
+			<div class="footer-nav-section">
+				<img class="tooer-logo" src="IMAGE" />
+
+				<div class="footer-contact">
+				<p class="footer-contact-address">121 Triple Diamond Blvd # 6
+					<br/>North Venice, FL 34275
+				</p>
+
+				<p class="footer-contact-phone">(941) 412-3748</p>
+				</div>
+			</div>
+		</div>
+
+		<p class="siteInfo">©<?php echo date("Y"); ?> Chartier Ceramic Tile. All rights reserved | Site design by <a href="http://www.terrancejrogers.com">TJ Rogers Design</a></p>
 	</div><!-- end of footerWrap -->
 </div><!-- end of footerWrapOuter -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
