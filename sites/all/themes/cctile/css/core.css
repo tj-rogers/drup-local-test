@@ -161,7 +161,12 @@ padding: 2em 2em 21em;
 margin: 0;
 text-align: center;
 position: relative;
-z-index: 0;
+z-index: 1;
+}
+
+.header-wrap-outer * {
+position: relative;
+z-index: 1;
 }
 
 .header-wrap-outer:after {
@@ -172,9 +177,9 @@ content: '';
 width: 100%;
 height: 100%;
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c3e5ee+0,c3e5ee+100&0+0,1+100 */
-background: -moz-linear-gradient(top,  rgba(195,229,238,0) 0%, rgba(195,229,238,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(195,229,238,0) 0%,rgba(195,229,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(195,229,238,0) 0%,rgba(195,229,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background: -moz-linear-gradient(top,  rgba(195,229,238,0) 30%, rgba(195,229,238,1) 80%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(195,229,238,0) 30%,rgba(195,229,238,1) 80%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(195,229,238,0) 30%,rgba(195,229,238,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3e5ee', endColorstr='#c3e5ee',GradientType=0 ); /* IE6-9 */
 }
 
@@ -189,11 +194,25 @@ align-items: center;
 color: #fff;
 }
 
+.feature-area {
+transform: translateY(5em);	
+}
+
+.feature-tagline {
+font-size: 2.25em;
+margin-bottom: 0.75em;	
+}
+
+.feature-area .btn {
+background: #414141;
+padding: 0.75em 1.5em;
+}
+
 
 /* --------------------------------------------- FEATURE -- */
 .content-top {
 position: relative;
-margin-top: -10em;
+margin-top: -13em;
 z-index: 1;
 margin-bottom: 3em;
 }
@@ -203,6 +222,7 @@ position: relative;
 background: #fff url("/sites/all/themes/cctile/images/bkd-hp-ct-box.jpg") no-repeat;	
 background-position: 101% 50%;
 padding: 3em 2em 3em 6em;
+box-shadow: 0 0.5em 1.5em #5e8c96;
 }
 
 .feat:after {
@@ -429,6 +449,71 @@ padding: 2em;
 max-width: 1180px;
 margin: 0 auto;
 text-align: center;
+position: relative;
+}
+
+.testimonial {
+display: inline-block;
+vertical-align: top;
+max-width: 55%;
+font-size: 1.125em;
+}
+
+.testimonial-slider-controls {
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+transform: translateY(-0.5em);
+font-size: 2em;
+opacity: 0.3;
+}
+
+.testimonial-slider-control-prev,
+.testimonial-slider-control-next {
+position: absolute;
+top: 0;
+}
+
+.testimonial-slider-control-prev {
+left: 0;	
+}
+
+.testimonial-slider-control-next {
+right: 0;	
+}
+
+.testimonial-quote {
+margin-bottom: 1.5em;	
+}
+
+.testimonial-author {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 1.5em;
+}
+
+.testimonial-author * {
+margin: 0 0.25em;	
+}
+
+.testimonial-author img {
+width: 48px !important;	
+height: 48px !important;
+}
+
+.testimonial-name-type span {
+display: block;
+}
+
+.testimonial-name {
+font-size: 1.25em;	
+}
+
+.testimonial-type {
+color: #ccb24c;
 }
 
 .selector-active {
@@ -444,18 +529,21 @@ background: #273548; /* Old browsers */
 }
 
 .footer-wrap {
-max-width: 1120px;
+max-width: 1180px;
 margin: 0 auto;
 padding: 6em 5% 4.875em;
 position: relative;
 color: #333;
 }
 
+.footer-nav {
+display: flex;
+justify-content: space-around;
+margin-bottom: 4em;
+}
+
 .footer-nav-section {
-display: inline-block;
-vertical-align: top;
-width: 22%;
-padding-left: 2%;
+padding: 0 2em;
 }
 
 .footer-wrap {
@@ -473,6 +561,10 @@ margin-bottom: 0.25em;
 .site-info a {
 color: #a2a2a2;
 font-size: 0.875rem;
+}
+
+.site-info {
+text-align: center;
 }
 
 .site-info a {

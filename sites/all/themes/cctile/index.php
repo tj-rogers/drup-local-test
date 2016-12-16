@@ -38,7 +38,7 @@
 		</div><!-- end of topNav -->
 
 		<div class="feature-area">
-			<p feature-tagline>Luxury and Elegance</p>
+			<p class="feature-tagline">Luxury and Elegance</p>
 			<a class="btn" href="#">Discover the perfect tile to transform your house into a home</a>
 		</div><!-- end of feat-area -->
 			
@@ -163,7 +163,7 @@
 			<p class="testimonial-quote">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium. Nullam mollis. Ut justo. </p>
 
 			<div class="testimonial-author">
-				<img class="testimonial-pic" src="IMAGE" />
+				<img class="testimonial-pic" src="/sites/all/themes/cctile/images/img-testimonial-author.png" />
 				<p class="testimonial-name-type">
 					<span class="testimonial-name">Michelle Waters</span>
 					<span class="testimonial-type">Residential Home</span>
