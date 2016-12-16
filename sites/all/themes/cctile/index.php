@@ -6,7 +6,7 @@
 		<div class="top-nav">
 			<a href="#">Products</a>
 			<a href="#">Projects</a>
-			<a class="site-logo" href="/"><img src="/sites/all/themes/cctil/images/site-logo.png" /></a>
+			<a class="site-logo" href="/"><img src="/sites/all/themes/cctile/images/site-logo.png" /></a>
 			<a href="#">About</a>
 			<a href="#">Contact</a>
 		</div><!-- end of topNav -->
