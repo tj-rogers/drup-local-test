@@ -1,37 +1,84 @@
-## Welcome to GitHub Pages
+# Drupal Base Installation
 
-You can use the [editor on GitHub](https://github.com/tj-rogers/drup-local-test/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+*Current core version: 7.50*
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To facilitate getting off the ground and running quickly, this repo contains a fully operational base install of Drupal 7 and bare minimum modules for a medium-large website.
 
-### Markdown
+A database file (SQL) is included in the **~db-exports** folder that includes enabled/disabled modules and preset configurations for core and contributed modules.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Included Contrib Modules
 
-```markdown
-Syntax highlighted code block
+* Absolute Messages
+* Administration Menu
+* Admin Views
+* Backup and Migrate
+* Better Formats
+* Block Class
+* CKEditor (+ CKFinder library)
+* Content Type Defaults
+* Context
+* CTools
+* Entity API
+* Entity Reference
+* Fieldgroup
+* Global Redirect
+* Google Analytics
+* Menu Attributes
+* Metatag
+* Module Filter
+* Multi-Upload Filefield Widget
+* Multi-Upload Imagefield Widget
+* Page Title
+* Pathauto
+* Quickupdate
+* Redirect
+* Reroute Email
+* Rules
+* Shorten
+* Site Verify
+* Token
+* Transliteration
+* Views
+* Views Bulk Operations
+* Views PHP
+* Webform
+* XMLSitemap
 
-# Header 1
-## Header 2
-### Header 3
+## Login Info
 
-- Bulleted
-- List
+**Username:** root  
+**Password:** drupalbase33 (change this after first login!)
 
-1. Numbered
-2. List
+## Usage
 
-**Bold** and _Italic_ and `Code` text
+1- Simply download the entire pacakage and upload files to server of choice. After creating a database at the same hosting as the files, import the included SQL file into the database. (/~db-exports/drupalbase.sql)
 
-[Link](url) and ![Image](src)
-```
+2- Make sure to rename the *settings.php.bak* file (sites/default/settings.php.bak) - name it *settings.php*, and change the database connection string as well as the cookie domain (see below).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+In your new settings.php, update database connection string (starting on line 213):
 
-### Jekyll Themes
+	$databases = array (
+	  'default' => 
+	  array (
+	    'default' => 
+	    array (
+	      'database' => 'YOUR_DATABASE',
+	      'username' => 'YOUR_DB_USER',
+	      'password' => 'YOUR_DB_PASSWORD',
+	      'host' => 'localhost',
+	      'port' => '',
+	      'driver' => 'mysql',
+	      'prefix' => '',
+	    ),
+	  ),
+	);
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tj-rogers/drup-local-test/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+3- Lastly, update cookie domain (line 338).
 
-### Support or Contact
+That's it!
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+---
+
+This package has been created by [Marcus D. Burnette](http://www.mburnette.com) primarily for use at [Thrive Creative Labs](http://www.thrivecreativelabs.com) for setting up new websites in a timely manner. The aim is to update this package (core/module versions) on a monthly-ish basis.
+
+*Content Type Defaults* is part of the MB Toolkit and can be [downloaded on GitHub](http://www.github.com/mburnette).
