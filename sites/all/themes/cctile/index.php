@@ -38,8 +38,7 @@
 					<div class="image-border">	
 						<div class="proj-image">
 							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room
-							</p>
+							<p class="proj-title">tranquil room</p>
 						</div>
 					</div>
 						<div class="proj-content">
@@ -49,12 +48,11 @@
 						</div>
 				</div>
 
-				<div class="proj-container proj-1">
+				<div class="proj-container proj-2">
 					<div class="image-border">	
 						<div class="proj-image">
 							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room
-							</p>
+							<p class="proj-title">tranquil room</p>
 						</div>
 					</div>
 						<div class="proj-content">
@@ -64,12 +62,11 @@
 						</div>
 				</div>
 
-				<div class="proj-container proj-1">
+				<div class="proj-container proj-3">
 					<div class="image-border">	
 						<div class="proj-image">
 							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room
-							</p>
+							<p class="proj-title">tranquil room</p>
 						</div>
 					</div>
 						<div class="proj-content">
@@ -79,12 +76,11 @@
 						</div>
 				</div>
 
-				<div class="proj-container proj-1">
+				<div class="proj-container proj-4">
 					<div class="image-border">	
 						<div class="proj-image">
 							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room
-							</p>
+							<p class="proj-title">tranquil room</p>
 						</div>
 					</div>
 						<div class="proj-content">
@@ -94,12 +90,11 @@
 						</div>
 				</div>
 
-				<div class="proj-container proj-1">
+				<div class="proj-container proj-5">
 					<div class="image-border">	
 						<div class="proj-image">
 							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room
-							</p>
+							<p class="proj-title">tranquil room</p>
 						</div>
 					</div>
 						<div class="proj-content">
@@ -109,12 +104,11 @@
 						</div>
 				</div>
 
-				<div class="proj-container proj-1">
+				<div class="proj-container proj-6">
 					<div class="image-border">	
 						<div class="proj-image">
 							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room
-							</p>
+							<p class="proj-title">tranquil room</p>
 						</div>
 					</div>
 						<div class="proj-content">
@@ -128,8 +122,6 @@
 	</div><!-- end of pageWrap -->
 	
 	<div class="prefooter">
-		
-        <p class="footerMenuLink"><a class="footerMenuActive" href="#0"><i class="fa fa-bars"></i> Menu</a></p>
         
 	</div><!-- end of prefooter -->
 	
