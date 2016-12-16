@@ -1,3 +1,29 @@
+<!doctype html>
+<html>
+<head>
+	<script>
+		(function(d) {
+		var config = {
+		  kitId: 'noh6hcv',
+		  scriptTimeout: 3000
+		},
+		h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+		})(document);
+	</script>
+	
+	<meta charset="UTF-8">
+	
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/sites/all/themes/cctile/css/drupal-core.css">
+	<link rel="stylesheet" href="/sites/all/themes/cctile/css/home.css">
+	<link rel="stylesheet" href="/sites/all/themes/cctile/css/core.css">
+	<link rel="stylesheet" href="/sites/all/themes/cctile/css/nav.css">
+	
+	<title>Chartier Ceramic Tile</title>
+</head>
+
+
+
 <div class="header-wrap-outer">
 	<div class="header-wrap">
 
@@ -10,14 +36,17 @@
 			<a href="#">About</a>
 			<a href="#">Contact</a>
 		</div><!-- end of topNav -->
-		
-		<!-- <p class="clearfloat">&nbsp;</p> -->
-	
+
+		<div class="feature-area">
+			<p feature-tagline>Luxury and Elegance</p>
+			<a class="btn" href="#">Discover the perfect tile to transform your house into a home</a>
+		</div><!-- end of feat-area -->
+			
 	</div><!-- end of headrerWrap -->
 </div><!-- end of headrerWrapOuter -->
 
-<div class="pageWrapOuter">
-	<div class="pageWrap">	
+<div class="page-wrap-outer">
+	<div class="page-wrap">	
 	
 		<?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
 	
@@ -186,10 +215,10 @@
 			</div>
 		</div>
 
-		<p class="siteInfo">©<?php echo date("Y"); ?> Chartier Ceramic Tile. All rights reserved | Site design by <a href="http://www.terrancejrogers.com">TJ Rogers Design</a></p>
+		<p class="site-info">©<?php echo date("Y"); ?> Chartier Ceramic Tile. All rights reserved | Site design by <a href="http://www.terrancejrogers.com">TJ Rogers Design</a></p>
 	</div><!-- end of footerWrap -->
 </div><!-- end of footerWrapOuter -->
-
+</html>
 
 
 
