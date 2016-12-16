@@ -53,10 +53,12 @@
     	<div class="content-wrap">
 		
 			<div class="content-top">
-				<div class="living-spaces">
-					<h2>Creating living spaces<span class="heading-tag">home environments you’ll love</span></h2>
-					<p>Bacon ipsum dolor amet aliqua veniam in velit duis deserunt kielbasa exercitation jowl irure minim venison filet mignon. Pork belly commodo ex shoulder, voluptate jerky velit beef drumstick biltong.</p>
-					<p>Meatloaf fugiat meatball culpa rump frankfurter labore dolore round short ribs voluptate tongue chicken.</p>
+				<div class="feat">
+					<div class="living-spaces">
+						<h2>Creating living spaces<span class="heading-tag">home environments you’ll love</span></h2>
+						<p>Bacon ipsum dolor amet aliqua veniam in velit duis deserunt kielbasa exercitation jowl irure minim venison filet mignon. Pork belly commodo ex shoulder, voluptate jerky velit beef drumstick biltong.</p>
+						<p>Meatloaf fugiat meatball culpa rump frankfurter labore dolore round short ribs voluptate tongue chicken.</p>
+					</div>
 				</div>
 			</div>
 		
@@ -151,7 +153,8 @@
 	</div><!-- end of pageWrap -->
 </div><!-- end of pageWrapOuter -->
 
-<div class="prefooter">
+<div class="prefooter-wrap">
+	<div class="prefooter">
 		<div class="testimonial">
 			<div class="testimonial-slider-controls">
 				<i class="fa fa-arrow-circle-left testimonial-slider-control-prev" aria-hidden="true"></i>
@@ -173,12 +176,13 @@
 				<i class="fa fa-circle" aria-hidden="true"></i>
 			</div>
 		</div>
-	</div><!-- end of prefooter -->
+	</div>
+</div><!-- end of prefooter -->
 
 <div class="footer-wrap-outer">
-	<div class="footerWrap">
+	<div class="footer-wrap">
 		<div class="footer-nav">
-			<div class="footer-nav-section">
+			<div class="footer-nav-section footer-nav-section-primary">
 				<h2>Quicklinks</h2>
 
 				<ul>
@@ -190,7 +194,7 @@
 				</ul>
 			</div>
 
-			<div class="footer-nav-section">
+			<div class="footer-nav-section footer-nav-section-secondary">
 				<h2>Products</h2>
 
 				<ul>
@@ -202,8 +206,8 @@
 				</ul>
 			</div>
 
-			<div class="footer-nav-section">
-				<img class="tooer-logo" src="IMAGE" />
+			<div class="footer-nav-section footer-nav-contact-info">
+				<img class="footer-logo" src="/sites/all/themes/cctile/images/footer-logo.png" />
 
 				<div class="footer-contact">
 				<p class="footer-contact-address">121 Triple Diamond Blvd # 6

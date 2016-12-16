@@ -12,24 +12,8 @@ overflow-x: hidden;
 }
 
 body {
+background: #c3e5ee;
 position: relative;
-}
-
-.italic { font-style: italic; }
-.reg { font-style: normal; }
-.normal { font-weight: normal; }
-.light { font-weight: 100; }
-.bold { font-weight: 700; }
-.lowercase { text-transform: lowercase; }
-.uppercase { text-transform: uppercase; }
-
-.alignLeft { text-align: left; }
-.alignCenter { text-align: center; }
-.alignRight { text-align: right; }
-.vertMid { vertical-align: middle; }
-.inBlock {
-display: inline-block;
-vertical-align: top;
 }
 
 a {
@@ -82,6 +66,10 @@ font-size: 1.2rem;
 }
 
 * ~ h1, * ~ h2, * ~ h3 {
+margin-top: 1em;
+}
+
+* ~ p {
 margin-top: 1em;
 }
 
@@ -155,25 +143,39 @@ border-radius: 3px;
 
 /* ---------- OVERALL ---------- */
 .page-wrap-outer {
-background: #fff;
 }
 
 .page-wrap {
-max-width: 1120px;
+max-width: 1140px;
 margin: 0 auto;
 }
 
 
 /* ---------- HEADER ---------- */
 .header-wrap-outer {
-background: #ade7f5; /* Old browsers */
+background: #273548;
+background: #273548 url("/sites/all/themes/cctile/images/bkd-hp-hdr.jpg") no-repeat;	
 position: relative;
 z-index: 1;
-padding: 2em;
+padding: 2em 2em 21em;
 margin: 0;
 text-align: center;
 position: relative;
-z-index: 2;
+z-index: 0;
+}
+
+.header-wrap-outer:after {
+position: absolute;
+top: 0;
+left: 0;
+content: '';
+width: 100%;
+height: 100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c3e5ee+0,c3e5ee+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(195,229,238,0) 0%, rgba(195,229,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(195,229,238,0) 0%,rgba(195,229,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(195,229,238,0) 0%,rgba(195,229,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3e5ee', endColorstr='#c3e5ee',GradientType=0 ); /* IE6-9 */
 }
 
 .header-wrap {
@@ -181,9 +183,59 @@ max-width: 1120px;
 margin: 0 auto;
 position: relative;
 text-align: center;
-display: flex;
+/display: flex;
 justify-content: space-between;
 align-items: center;
+color: #fff;
+}
+
+
+/* --------------------------------------------- FEATURE -- */
+.content-top {
+position: relative;
+margin-top: -10em;
+z-index: 1;
+margin-bottom: 3em;
+}
+
+.feat {
+position: relative;
+background: #fff url("/sites/all/themes/cctile/images/bkd-hp-ct-box.jpg") no-repeat;	
+background-position: 101% 50%;
+padding: 3em 2em 3em 6em;
+}
+
+.feat:after {
+position: absolute;
+top: 0;
+left: 41%;
+content: '';
+width: 57%;
+height: 100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 10%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 10%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,1) 10%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+.living-spaces {
+width: 55%;	
+position: relative;
+z-index: 2;
+}
+
+.living-spaces h2 {
+text-transform: uppercase;	
+}
+
+.living-spaces h2 span {
+display: block;
+font-size: 0.8em;
+color: #ccb24c;
+font-weight: 100;
+font-style: italic;
 }
 
 
@@ -367,10 +419,20 @@ margin-top: 2em;
 
 
 /* --------------------------------------------- PREFOOTER -- */
+.prefooter-wrap {
+background: url("/sites/all/themes/cctile/images/bkd-prefooter-tesimonials.jpg");	
+color: #fff;
+padding: 2em;
+}
+
 .prefooter {
-max-width: 1120px;
+max-width: 1180px;
 margin: 0 auto;
 text-align: center;
+}
+
+.selector-active {
+color: #273548;	
 }
 
 
@@ -378,15 +440,7 @@ text-align: center;
 /* ----------------------------------------------- FooterNav Sections --- */ 
 .footer-wrap-outer {
 position: relative;
-background: #ade7f5; /* Old browsers */
-/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ade7f5+0,01b5df+100 */
-background: rgb(173,231,245); /* Old browsers */
-background: -moz-linear-gradient(top,  rgba(173,231,245,1) 0%, rgba(1,181,223,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(173,231,245,1) 0%,rgba(1,181,223,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(173,231,245,1) 0%,rgba(1,181,223,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ade7f5', endColorstr='#01b5df',GradientType=0 ); /* IE6-9 */
-overflow: hidden;
-text-align: center;
+background: #273548; /* Old browsers */
 }
 
 .footer-wrap {
@@ -404,10 +458,20 @@ width: 22%;
 padding-left: 2%;
 }
 
+.footer-wrap {
+color: #fff;	
+}
+
+.footer-wrap h2 {
+color: #ccb24c;
+font-weight: 100;
+text-transform: uppercase;
+margin-bottom: 0.25em;
+}
 
 .site-info,
 .site-info a {
-color: #333;
+color: #a2a2a2;
 font-size: 0.875rem;
 }
 
