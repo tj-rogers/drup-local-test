@@ -59,17 +59,20 @@
 						<p>Bacon ipsum dolor amet aliqua veniam in velit duis deserunt kielbasa exercitation jowl irure minim venison filet mignon. Pork belly commodo ex shoulder, voluptate jerky velit beef drumstick biltong.</p>
 						<p>Meatloaf fugiat meatball culpa rump frankfurter labore dolore round short ribs voluptate tongue chicken.</p>
 					</div>
+					<p><a class="btn" href="#">Learn more about Chartier Ceramic Tile</a></p>
 				</div>
 			</div>
 		
 			<div class="content-area">
-				<h2>Recent Projects</h2>
+				<h2 class="section-title">Recent Projects</h2>
 
 				<div class="projects-grid">
 					<div class="proj-container proj-1">	
 						<div class="proj-image-container">
-							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room</p>
+							<div class="proj-cat-title">
+								<p class="proj-category">Living Space</p>
+								<p class="proj-title">tranquil room</p>
+							</div>
 							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
 						<div class="proj-content">
@@ -81,43 +84,50 @@
 
 					<div class="proj-container proj-2">	
 						<div class="proj-image-container">
-							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room</p>
+							<div class="proj-cat-title">
+								<p class="proj-category">Kitchen</p>
+								<p class="proj-title">Rogers Ranch</p>
+							</div>
 							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
 						<div class="proj-content">
-								<p class="proj-content-category">Living Space</p>
-							  <h2>tranquil room</h2>
+								<p class="proj-content-category">Kitchen</p>
+							  <h2>Rogers Ranch</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
 
 					<div class="proj-container proj-3">	
 						<div class="proj-image-container">
-							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room</p>
+							<div class="proj-cat-title">
+								<p class="proj-category">Bathroom</p>
+								<p class="proj-title">King Estate</p>
+							</div>
 							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
 						<div class="proj-content">
-								<p class="proj-content-category">Living Space</p>
-							  <h2>tranquil room</h2>
+								<p class="proj-content-category">Bathroom</p>
+							  <h2>King Estate</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
 
 					<div class="proj-container proj-4">	
 						<div class="proj-image-container">
-							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room</p>
+							<div class="proj-cat-title">
+								<p class="proj-category">outdoor</p>
+								<p class="proj-title">Backyard escape</p>
+							</div>
 							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
 						<div class="proj-content">
-								<p class="proj-content-category">Living Space</p>
-							  <h2>tranquil room</h2>
+								<p class="proj-content-category">outdoor</p>
+							  <h2>Backyard escape</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
 				</div><!-- end of projects-grid -->
+				<p class="align-center"><a class="btn" href="#">See our past projects</a></p>
 			</div><!-- end of content-area -->
 		</div><!-- end of contentWrap -->
 	</div><!-- end of pageWrap -->
