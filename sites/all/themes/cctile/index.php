@@ -65,90 +65,60 @@
 			<div class="content-area">
 				<h2>Recent Projects</h2>
 
-				<div class="proj-container proj-1">
-					<div class="image-border">	
-						<div class="proj-image">
+				<div class="projects-grid">
+					<div class="proj-container proj-1">	
+						<div class="proj-image-container">
 							<p class="proj-category">Living Space</p>
 							<p class="proj-title">tranquil room</p>
+							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
-					</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Living Space</p>
 							  <h2>tranquil room</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
-				</div>
+					</div>
 
-				<div class="proj-container proj-2">
-					<div class="image-border">	
-						<div class="proj-image">
+					<div class="proj-container proj-2">	
+						<div class="proj-image-container">
 							<p class="proj-category">Living Space</p>
 							<p class="proj-title">tranquil room</p>
+							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
-					</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Living Space</p>
 							  <h2>tranquil room</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
-				</div>
+					</div>
 
-				<div class="proj-container proj-3">
-					<div class="image-border">	
-						<div class="proj-image">
+					<div class="proj-container proj-3">	
+						<div class="proj-image-container">
 							<p class="proj-category">Living Space</p>
 							<p class="proj-title">tranquil room</p>
+							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
-					</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Living Space</p>
 							  <h2>tranquil room</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
-				</div>
+					</div>
 
-				<div class="proj-container proj-4">
-					<div class="image-border">	
-						<div class="proj-image">
+					<div class="proj-container proj-4">	
+						<div class="proj-image-container">
 							<p class="proj-category">Living Space</p>
 							<p class="proj-title">tranquil room</p>
+							<p class="proj-image"><img src="/sites/all/themes/cctile/images/img-project-1.jpg" /></p>
 						</div>
-					</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Living Space</p>
 							  <h2>tranquil room</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
-				</div>
-
-				<div class="proj-container proj-5">
-					<div class="image-border">	
-						<div class="proj-image">
-							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room</p>
-						</div>
 					</div>
-						<div class="proj-content">
-								<p class="proj-content-category">Living Space</p>
-							  <h2>tranquil room</h2>
-								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
-						</div>
-				</div>
-
-				<div class="proj-container proj-6">
-					<div class="image-border">	
-						<div class="proj-image">
-							<p class="proj-category">Living Space</p>
-							<p class="proj-title">tranquil room</p>
-						</div>
-					</div>
-						<div class="proj-content">
-								<p class="proj-content-category">Living Space</p>
-							  <h2>tranquil room</h2>
-								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
-						</div>
-				</div>
-			</div>
+				</div><!-- end of projects-grid -->
+			</div><!-- end of content-area -->
 		</div><!-- end of contentWrap -->
 	</div><!-- end of pageWrap -->
 </div><!-- end of pageWrapOuter -->
@@ -186,11 +156,11 @@
 				<h2>Quicklinks</h2>
 
 				<ul>
-					<li>Products</li>
-					<li>Projects</li>
-					<li>About</li>
-					<li>Blog</li>
-					<li>Contact</li>
+					<li><a href="#">Products</a></li>
+					<li><a href="#">Projects</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
 				</ul>
 			</div>
 
@@ -198,11 +168,11 @@
 				<h2>Products</h2>
 
 				<ul>
-					<li>Wood Tile</li>
-					<li>Ceramic Tile</li>
-					<li>Wall Tile</li>
-					<li>Backsplash</li>
-					<li>Outdoor Tile</li>
+					<li><a href="#">Wood Tile</a></li>
+					<li><a href="#">Ceramic Tile</a></li>
+					<li><a href="#">Wall Tile</a></li>
+					<li><a href="#">Backsplash</a></li>
+					<li><a href="#">Outdoor Tile</a></li>
 				</ul>
 			</div>
 
