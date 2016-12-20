@@ -30,11 +30,11 @@
 		<p class="menu-link"><a class="menuActive" href="#0"><i class="fa fa-bars"></i></a></p>
         
 		<div class="top-nav">
-			<a href="#">Products</a>
-			<a href="#">Projects</a>
+			<a href="/products">Products</a>
+			<a href="/projects">Projects</a>
 			<a class="site-logo" href="/"><img src="/sites/all/themes/cctile/images/site-logo.png" /></a>
-			<a href="#">About</a>
-			<a href="#">Contact</a>
+			<a href="/about">About</a>
+			<a href="/contact">Contact</a>
 		</div><!-- end of topNav -->
 
 		<div class="feature-area">
@@ -77,7 +77,7 @@
 						</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Living Space</p>
-							  <h2>tranquil room</h2>
+							  	<h2>tranquil room</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
@@ -92,7 +92,7 @@
 						</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Kitchen</p>
-							  <h2>Rogers Ranch</h2>
+							  	<h2>Rogers Ranch</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
@@ -107,7 +107,7 @@
 						</div>
 						<div class="proj-content">
 								<p class="proj-content-category">Bathroom</p>
-							  <h2>King Estate</h2>
+							  	<h2>King Estate</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
@@ -122,12 +122,12 @@
 						</div>
 						<div class="proj-content">
 								<p class="proj-content-category">outdoor</p>
-							  <h2>Backyard escape</h2>
+							  	<h2>Backyard escape</h2>
 								<p class="proj-content-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit.</p>
 						</div>
 					</div>
 				</div><!-- end of projects-grid -->
-				<p class="align-center"><a class="btn" href="#">See our past projects</a></p>
+				<p class="align-center"><a class="btn" href="/projects">See our past projects</a></p>
 			</div><!-- end of content-area -->
 		</div><!-- end of contentWrap -->
 	</div><!-- end of pageWrap -->
@@ -166,11 +166,11 @@
 				<h2>Quicklinks</h2>
 
 				<ul>
-					<li><a href="#">Products</a></li>
-					<li><a href="#">Projects</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="/products">Products</a></li>
+					<li><a href="/projects">Projects</a></li>
+					<li><a href="/about">About</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/contact">Contact</a></li>
 				</ul>
 			</div>
 
