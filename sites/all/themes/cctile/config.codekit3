@@ -71,6 +71,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/owl.carousel.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/owl.carousel-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/print.css": {
 		"aP": 0,
 		"bl": 0,
@@ -230,6 +240,15 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/cct-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/owl.carousel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/owl.carousel-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

@@ -73,8 +73,6 @@
  */
 ?>
 
-<?php include("includes/redirect-messages.php"); ?>
-
 <div class="header-wrap-outer">
 	<div class="header-wrap">
 
