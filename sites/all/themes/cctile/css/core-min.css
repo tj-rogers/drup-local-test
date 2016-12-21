@@ -1,0 +1,761 @@
+/* CSS Document */
+/* ----- CORE STYLES ----- */
+:root {
+font-size: 16px;
+line-height: 1.75em;
+color: #505759;
+}
+
+html, body {
+overflow-x: hidden;
+-webkit-text-size-adjust: none;
+}
+
+body {
+background: #c3e5ee;
+position: relative;
+font-family: "Times New Roman", Georgia, Serif;
+}
+
+a {
+text-decoration: none;
+transition: 0.2s;
+color: #00afd7;
+}
+
+a:hover,
+a:focus,
+a:active {
+color: #002f64;
+}
+
+ul,
+ul li {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+img {
+max-width: 100% !important;
+height: auto !important;
+}
+
+hr {
+color: #f6f6f6;
+border: 0;
+height: 2px;
+background: #e8e8e8;
+margin: 2em 0;
+position: relative;
+}
+
+h1, h2, h3 {
+font-size: 1.9rem;
+line-height: 1.25em;
+font-weight: bold;
+color: #003764;
+margin-bottom: 1em;
+}
+
+h2 {
+font-size: 1.5rem;
+}
+
+h3 {
+font-size: 1.2rem;
+}
+
+* ~ h1, * ~ h2, * ~ h3 {
+margin-top: 1em;
+}
+
+* ~ p {
+margin-top: 1em;
+}
+
+small {
+font-size: 0.8em;
+}
+
+.btn {
+display: inline-block;
+background: #ccb24c;
+color: #fff;
+padding: 0.5em 2.5em;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+border-radius: 100px;
+}
+
+.btn:hover,
+.btn:active,
+a.btn:hover,
+a.btn:active {
+background: #2a3a4e;
+color: #fff;
+}
+
+.align-center,
+.align-right {
+text-align: right;
+position: relative;
+z-index: 1;
+}
+
+.align-center {
+text-align: center;	
+}
+
+.views-field-edit-node a {
+background: #00afd7;
+color: #fff;
+font-size: 0.9em;
+padding: 0.1em 0.5em;
+text-transform: lowercase;
+border-radius: 3px;
+line-height: 1;
+}
+
+.item-list {
+margin-top: 3em;
+text-align: center;
+}
+
+.item-list ul.pager,
+.item-list ul.pager li {
+padding: 0;
+margin: 0;
+display: inline-block;
+vertical-align: middle;
+font-size: 1em;
+line-height: 1.4;
+}
+
+.item-list ul.pager li {
+margin: 0 0.25em;
+}
+
+.item-list ul.pager li.pager-current {
+background: #333;
+padding: 0.1em 0.5em;
+font-size: 1.25em;
+color: #fff;
+border-radius: 3px;
+}
+
+.item-list ul.pager li a {
+background: #eee;
+padding: 0.1em 0.5em;
+margin: 0;
+float: none;
+border-radius: 3px;
+}
+
+
+/* ---------- OVERALL ---------- */
+.page-wrap-outer {
+}
+
+.page-wrap {
+max-width: 1140px;
+margin: 0 auto;
+}
+
+
+/* ---------- HEADER ---------- */
+.header-wrap-outer {
+background: #273548;
+background: #273548 url("/sites/all/themes/cctile/images/bkd-hp-hdr.jpg") no-repeat;	
+position: relative;
+z-index: 1;
+padding: 2em 2em 21em;
+margin: 0;
+text-align: center;
+position: relative;
+z-index: 1;
+}
+
+.header-wrap-outer * {
+position: relative;
+z-index: 1;
+}
+
+.header-wrap-outer:after {
+position: absolute;
+top: 0;
+left: 0;
+content: '';
+width: 100%;
+height: 100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c3e5ee+0,c3e5ee+100&0+0,1+100 */
+background: -moz-linear-gradient(top,  rgba(195,229,238,0) 30%, rgba(195,229,238,1) 80%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(195,229,238,0) 30%,rgba(195,229,238,1) 80%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(195,229,238,0) 30%,rgba(195,229,238,1) 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c3e5ee', endColorstr='#c3e5ee',GradientType=0 ); /* IE6-9 */
+}
+
+.header-wrap {
+max-width: 1120px;
+margin: 0 auto;
+position: relative;
+text-align: center;
+/display: flex;
+justify-content: space-between;
+align-items: center;
+color: #fff;
+}
+
+.feature-area {
+transform: translateY(5em);	
+}
+
+.feature-tagline {
+font-size: 2.25em;
+margin-bottom: 0.75em;	
+}
+
+.feature-area .btn {
+background: #414141;
+padding: 0.75em 1.5em;
+}
+
+
+/* --------------------------------------------- FEATURE -- */
+.content-top {
+position: relative;
+margin-top: -13em;
+z-index: 1;
+margin-bottom: 6em;
+}
+
+.feat {
+position: relative;
+background: #fff url("/sites/all/themes/cctile/images/bkd-hp-ct-box.jpg") no-repeat;	
+background-position: 140% 50%;
+background-size: 70%;
+padding: 3em 2em 3em 6em;
+box-shadow: 0 0.5em 1.5em #5e8c96;
+}
+
+.feat:after {
+position: absolute;
+top: 0;
+left: 41%;
+content: '';
+width: 57%;
+height: 100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 10%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 10%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,1) 10%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.living-spaces {
+width: 55%;	
+position: relative;
+z-index: 2;
+}
+
+.living-spaces h2 {
+text-transform: uppercase;
+line-height: 1.125;
+}
+
+.living-spaces h2 span {
+display: block;
+font-size: 0.9em;
+color: #ccb24c;
+font-weight: 100;
+font-style: italic;
+}
+
+
+/* ------------------------------------------- CONTENT WRAP --- */
+.content-wrap {
+padding: 3em 0 7.2em;
+position: relative;
+z-index: 1;
+}
+
+.not-front .content-wrap {
+z-index: 0;
+}
+
+@media (max-width: 750px) {
+.contentWrap {
+padding: 3em 5% 7.2em;
+}
+}
+
+@media (max-width: 600px) {
+.contentWrap {
+padding-bottom: 4em;
+}
+}
+
+.contentWrap * + p {
+margin-top: 1em;
+}
+
+.contentArea ul {
+max-width: 70%;
+}
+
+.content-area ul,
+.content-area ul li {
+list-style: none;
+padding: 0;
+margin: 0 0 0 1em;
+}
+
+.content-area * ~ ul {
+margin-top: 1em !important;
+}
+
+.content-area ul li {
+margin-bottom: 0.5em;
+font-size: 0.9em;
+}
+
+.content-area ul li:before {
+content: '\f054';
+font-family: 'FontAwesome';
+float: left;
+margin-left: -1.25em;
+}
+
+.sectionNews .content-area ul li:before {
+content: '';
+}
+
+.content-area,
+.sidebar-area {
+display: inline-block;
+vertical-align: top;
+}
+
+.content-area {
+/width: 90%;
+/padding: 0 5%;
+}
+
+.content-area.has-sidebar {
+width: 54%;
+}
+
+.sidebar-area {
+width: 35%;
+}
+
+.not-front .sidebar-area {
+width: 30%;
+padding: 0 2.5%;
+}
+
+@media (max-width: 750px) {
+.contentArea,
+.contentArea.hasSidebar,
+.not-front .sidebarArea {
+width: 95%;
+padding: 0 2.5%;
+}
+
+.sidebarArea {
+margin-top: 3em;
+width: 100%;
+}
+}
+
+.sidebarArea .block {
+margin-bottom: 2em;
+}
+
+
+/* --------------------------------------------- HOMEPAGE STYLES -- */
+/* --------------------------------------------- RECENT PROJECTS -- */
+.section-title {
+text-align: center;	
+margin-bottom: 1.5em;
+}
+
+.projects-grid,
+.proj-container {
+display: flex;
+}
+
+.projects-grid {
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.proj-container {
+width: 49%;
+margin: 0.75em 0;
+align-items: center;
+height: 17.5em;
+position: relative;
+/background: #ccc;
+}
+
+.proj-container {
+cursor: pointer;
+}
+
+.proj-container .proj-content,
+.proj-container .proj-image-container {
+transition: 0.2s;
+}
+
+.proj-container:hover .proj-content,
+.proj-container:hover .proj-image-container {
+width: 50%;  
+}
+
+
+/* --------------------------------------------- PROJECT IMAGE & TITLE -- */
+.proj-image-container {
+background: #ccc url("/sites/all/themes/cctile/images/img-project-1.jpg");
+background-size: cover;
+height: 100%;
+width: 98.5%;
+box-shadow: 0 0em 1em #5e8c96;
+overflow: hidden;
+position: absolute;
+left: 0;
+top: 0;
+z-index: 1;
+}
+
+.proj-content {
+width: 50%;
+z-index: 0;
+left: 50%;
+top: 0;
+}
+
+.proj-content {
+position: relative;
+text-align: center;
+background: #fff;
+color: #313131;
+box-shadow: 0 0em 1em #5e8c96;
+padding: 10% 0;
+}
+
+.proj-2 .proj-image-container {
+background: #ccc url("/sites/all/themes/cctile/images/img-project-2.jpg"); 
+background-size: cover;
+}
+
+.proj-3 .proj-image-container {
+background: #ccc url("/sites/all/themes/cctile/images/img-project-3.jpg"); 
+background-size: cover;
+}
+
+.proj-4 .proj-image-container {
+background: #ccc url("/sites/all/themes/cctile/images/img-project-4.jpg"); 
+background-size: cover;
+}
+
+.proj-container:hover .proj-image-container {
+background-position-x: 30%;	
+}
+
+.proj-image-container:before {
+content: '';
+width: 100%;
+height: 100%;
+position: absolute;
+left: 0;
+right: 0;
+background: #1f2c3b;
+opacity: 0.6;
+transition: 0.2s;
+}
+
+.proj-2 .proj-image-container:before {
+background: #4e500e;
+}
+
+.proj-3 .proj-image-container:before {
+background: #6c2825; 
+}
+
+.proj-4 .proj-image-container:before {
+background: #523d2b;
+}
+
+.proj-image-container:after {
+position: absolute;
+content: '';
+top: 6%;
+left: 3%;
+width: 94%;
+height: 86.5%;
+border: 1px solid #ccb24c;
+z-index: 4;
+}
+
+.proj-image img {
+display: none;
+}
+
+.proj-cat-title {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+z-index: 3;
+text-transform: uppercase;
+}
+
+.proj-category {
+display: inline-block;
+font-size: 1.125em;
+color: #fff;
+padding: 0 3em 0.25em;
+border-bottom: 1px solid #ccb24c;
+margin: 0 0 0.75em;
+font-weight: 100;
+}
+
+.proj-title {
+color: #fff;
+font-size: 1.5em;
+margin: 0;
+font-weight: 700;
+}
+
+.proj-container:hover .proj-cat-title,
+.proj-container:hover .proj-image-container:before,
+.proj-container:hover .proj-image-container:after {
+opacity: 0;
+}
+
+
+/* --------------------------------------------- PROJECT INFO -- */
+.proj-content-category {
+color: #5c7287;
+text-transform: uppercase; 
+}
+
+.proj-2 .proj-content-category {
+color: #b7bb4a;
+}
+
+.proj-3 .proj-content-category {
+color: #c34943; 
+}
+
+.proj-4 .proj-content-category {
+color: #8c694c;
+}
+
+.proj-content h2 {
+text-transform: uppercase;
+font-family: sans-serif;
+letter-spacing: 2px;
+position: relative;
+font-size: 1.25em;
+}
+
+.proj-content h2:before {
+position: absolute;
+content: '';
+top: 120%;
+left: 25%;
+width: 50%;
+height: 0;
+border-bottom: 2px solid #ddd;
+}
+
+.proj-content:before {
+position: absolute;
+content: '';
+top: 4%;
+left: 3%;
+width: 93%;
+height: 91%;
+border: 1px solid #ccb24c;
+z-index: 4;
+transition: 0.2s;
+/opacity: 0;
+}
+
+.proj-container:hover .proj-content:before {
+opacity: 1;  
+}
+
+.proj-content-desc {
+line-height: 1.25;
+margin-top: 1em;
+padding: 0 0.5em;
+}
+
+.projects-grid + .align-center {
+margin-top: 3em;	
+}
+
+
+/* --------------------------------------------- PREFOOTER -- */
+.prefooter-wrap {
+background: url("/sites/all/themes/cctile/images/bkd-prefooter-tesimonials.jpg");	
+color: #fff;
+padding: 2em;
+}
+
+.prefooter {
+max-width: 1180px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+}
+
+.testimonial {
+display: inline-block;
+vertical-align: top;
+max-width: 55%;
+font-size: 1.125em;
+}
+
+.testimonial-slider-controls {
+position: absolute;
+top: 50%;
+left: 0;
+width: 100%;
+transform: translateY(-0.5em);
+font-size: 2em;
+opacity: 0.3;
+}
+
+.testimonial-slider-control-prev,
+.testimonial-slider-control-next {
+position: absolute;
+top: 0;
+}
+
+.testimonial-slider-control-prev {
+left: 0;	
+}
+
+.testimonial-slider-control-next {
+right: 0;	
+}
+
+.testimonial-quote {
+margin-bottom: 1.5em;	
+}
+
+.testimonial-author {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-bottom: 1.5em;
+}
+
+.testimonial-author * {
+margin: 0 0.25em;	
+}
+
+.testimonial-author img {
+width: 48px !important;	
+height: 48px !important;
+}
+
+.testimonial-name-type span {
+display: block;
+}
+
+.testimonial-name {
+font-size: 1.25em;	
+}
+
+.testimonial-type {
+color: #ccb24c;
+}
+
+.selector-active {
+color: #273548;	
+}
+
+
+
+/* ----------------------------------------------- FooterNav Sections --- */ 
+.footer-wrap-outer {
+position: relative;
+background: #273548; /* Old browsers */
+}
+
+.footer-wrap-outer:before {
+position: absolute;
+top: 1em;
+left: 0;
+content: '';
+width: 100%;
+height: 0.05em;
+background: #ccb24c;
+}
+
+.footer-wrap {
+max-width: 1180px;
+margin: 0 auto;
+padding: 6em 5% 4.875em;
+position: relative;
+color: #333;
+}
+
+.footer-nav {
+display: flex;
+justify-content: space-around;
+margin-bottom: 4em;
+}
+
+.footer-nav-section {
+padding: 0 2em;
+}
+
+.footer-wrap {
+color: #a2a2a2;  
+}
+
+.footer-wrap a {
+color: #fff;	
+}
+
+.footer-wrap a:hover {
+color: #777;	
+}
+
+.footer-wrap h2 {
+color: #ccb24c;
+font-weight: 100;
+text-transform: uppercase;
+margin-bottom: 0.25em;
+}
+
+.footer-logo {
+margin-bottom: 1em;  
+}
+
+.site-info,
+.site-info a {
+color: #a2a2a2;
+font-size: 0.875rem;
+}
+
+.site-info {
+text-align: center;
+}
+
+.site-info a {
+text-decoration: underline;
+}
+
+.site-info a:hover {
+color: #b7ff5d;
+}

@@ -16,10 +16,20 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
+		},
+	"\/css\/core-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/core-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/css\/core.css": {
 		"aP": 0,
@@ -129,6 +139,22 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/img-about-bill.jpg": {
+		"ft": 16384,
+		"iS": 60115,
+		"oA": 0,
+		"oAP": "\/images\/img-about-bill.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/img-about-julie.jpg": {
+		"ft": 16384,
+		"iS": 60734,
+		"oA": 0,
+		"oAP": "\/images\/img-about-julie.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/img-project-1.jpg": {
 		"ft": 16384,
 		"iS": 46275,
@@ -169,11 +195,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/images\/img-testimonial-ph.jpg": {
+		"ft": 16384,
+		"iS": 7477,
+		"oA": 0,
+		"oAP": "\/images\/img-testimonial-ph.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/images\/site-logo.png": {
 		"ft": 32768,
 		"iS": 9167,
 		"oA": 0,
 		"oAP": "\/images\/site-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/images\/tranquil-room.jpg": {
+		"ft": 16384,
+		"iS": 63749,
+		"oA": 0,
+		"oAP": "\/images\/tranquil-room.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -183,11 +225,11 @@
 		"oAP": "\/index.php",
 		"oF": 0
 		},
-	"\/js\/core.js": {
+	"\/js\/cct.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/min\/core-min.js",
+		"oAP": "\/js\/min\/cct-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -242,6 +284,19 @@
 		"oA": 0,
 		"oAP": "\/css\/screen.css",
 		"oF": 0,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/scss\/style.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/style.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		}
@@ -258,7 +313,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -1580,7 +1635,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http:\/\/dev.chartierceramictile:8276\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

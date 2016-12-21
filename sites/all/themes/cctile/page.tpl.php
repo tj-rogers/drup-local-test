@@ -75,63 +75,56 @@
 
 <?php include("includes/redirect-messages.php"); ?>
 
-<div class="headerWrapOuter">
-	<div class="headerWrap">
+<div class="header-wrap-outer">
+	<div class="header-wrap">
 
-		<p class="menuLink"><a class="menuActive" href="#0"><i class="fa fa-bars"></i></a></p>
+		<p class="menu-link"><a class="menuActive" href="#0"><i class="fa fa-bars"></i></a></p>
         
-		<div class="topNav">
+		<div class="top-nav">
 			<?php print render($page['topnav']); ?>
 		</div><!-- end of topNav -->
 		
-		<!-- <p class="clearfloat">&nbsp;</p> -->
-	
+		<?php if($page['feature']){ ?>
+			<div class="feature-wrap">
+				<?php echo render($page['feature']); ?>
+			</div>
+		<?php } ?>
 	</div><!-- end of headrerWrap -->
 </div><!-- end of headrerWrapOuter -->
-	
-<?php if($page['feature']){ ?>
-	<div class="featureWrap">
-		<?php echo render($page['feature']); ?>
-	</div>
-<?php } ?>
 
-<div class="pageWrapOuter">
-	<div class="pageWrap">	
+<div class="page-wrap-outer">
+	<div class="page-wrap">	
 	
 		<?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
 	
-    	<div class="contentWrap">
+    	<div class="content-wrap">
 		
-		<?php if($page['contenttop']){ print render($page['contenttop']); } ?>
-	
-		<div class="contentArea <?php if($page['sidebar']){ echo 'hasSidebar'; } ?>">
-			<?php print $messages; ?>
-			<?php if ($title): ?><h1 class="title" id="page-title"><?php if(isset($node) && $node->type == 'staff_bio'){ echo $node->field_first_name['und']['0']['value'].' '; } ?><?php print $title; ?></h1><?php endif; ?>
-			<?php print render($page['content']); ?>
-		</div>
+			<?php if($page['contenttop']){ print render($page['contenttop']); } ?>
 		
-		<?php if($page['sidebar']){ ?>
-			<div class="sidebarArea">
-				<?php echo render($page['sidebar']); ?>
+			<div class="content-area <?php if($page['sidebar']){ echo 'has-sidebar'; } ?>">
+				<?php print $messages; ?>
+				<?php if ($title): ?><h1 class="title" id="page-title"><?php if(isset($node) && $node->type == 'staff_bio'){ echo $node->field_first_name['und']['0']['value'].' '; } ?><?php print $title; ?></h1><?php endif; ?>
+				<?php print render($page['content']); ?>
 			</div>
-		<?php } ?>
-		
-		<p class="clearfloat">&nbsp;</p>
+			
+			<?php if($page['sidebar']){ ?>
+				<div class="sidebar-area">
+					<?php echo render($page['sidebar']); ?>
+				</div>
+			<?php } ?>
 		</div><!-- end of contentWrap -->
 	</div><!-- end of pageWrap -->
-	
-	<div class="prefooter">
-		
-		<?php print render($page['prefooter']); ?>
-        <p class="footerMenuLink"><a class="footerMenuActive" href="#0"><i class="fa fa-bars"></i> Menu</a></p>
-        
-	</div><!-- end of prefooter -->
-	
 </div><!-- end of pageWrapOuter -->
 
-<div class="footerWrapOuter">
-	<div class="footerWrap alignCenter">
+<div class="prefooter-wrap">
+	<div class="prefooter">
+		<?php print render($page['prefooter']); ?>
+	</div><!-- end of prefooter -->
+</div>
+
+<div class="footer-wrap-outer">
+	<div class="footer-wrap">
 	   <?php print render($page['footer']); ?>
-	   <p class="siteInfo">©<?php echo date("Y"); ?> Chartier Ceramic Tile. All rights reserved.</p>
+	   <p class="site-info">©<?php echo date("Y"); ?> Chartier Ceramic Tile. All rights reserved | Site design by <a href="http://www.terrancejrogers.com">TJ Rogers Design</a></p>
 	</div><!-- end of footerWrap -->
 </div><!-- end of footerWrapOuter -->
