@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="//dev.chartierceramictile:8276/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>http://dev.chartierceramictile:8276/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>
+<url><loc>http://dev.chartierceramictile:8276/home</loc><lastmod>2016-12-14T17:20Z</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+<url><loc>http://dev.chartierceramictile:8276/404</loc><lastmod>2016-12-14T17:20Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://dev.chartierceramictile:8276/contact</loc><lastmod>2016-12-14T17:33Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://dev.chartierceramictile:8276/projects</loc><lastmod>2016-12-14T17:35Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://dev.chartierceramictile:8276/about</loc><lastmod>2016-12-14T17:37Z</lastmod><changefreq>weekly</changefreq></url>
+<url><loc>http://dev.chartierceramictile:8276/products</loc><lastmod>2016-12-19T21:31Z</lastmod><changefreq>daily</changefreq></url>
+</urlset>
