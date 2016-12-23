@@ -16,7 +16,7 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 8192,
+		"ft": 131072,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
@@ -274,6 +274,7 @@
 		"sC": 1,
 		"tS": 0
 		},
+<<<<<<< Updated upstream
 	"\/js\/flickity.pkgd.js": {
 		"ft": 64,
 		"mi": 1,
@@ -292,6 +293,8 @@
 		"sC": 1,
 		"tS": 0
 		},
+=======
+>>>>>>> Stashed changes
 	"\/js\/min\/cct-min.js": {
 		"ft": 64,
 		"mi": 1,
