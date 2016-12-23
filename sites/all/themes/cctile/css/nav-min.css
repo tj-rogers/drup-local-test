@@ -1,0 +1,42 @@
+/* CSS Document */
+.menu,
+.menu li.leaf {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+/* --------------------------------------------- TOP NAV -- */
+.top-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.top-nav .region-topnav,
+.top-nav .menu {
+  display: flex;
+  align-items: center; }
+
+.top-nav a {
+  color: #fff;
+  margin: 0 0.75em;
+  font-size: 1.25em;
+  position: relative; }
+
+.top-nav a:hover {
+  color: #777; }
+
+.top-nav a:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: '';
+  width: 0;
+  height: 0.125em;
+  background: #ccb24c;
+  transition: 0.2s; }
+
+.top-nav a:hover:after {
+  width: 100%; }
+
+.menu-link {
+  display: none; }

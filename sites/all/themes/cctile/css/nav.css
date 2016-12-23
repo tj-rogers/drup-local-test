@@ -1,9 +1,22 @@
 /* CSS Document */
+.menu,
+.menu li.leaf {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
 
 /* --------------------------------------------- TOP NAV -- */
 .top-nav {
 display: flex;
 justify-content: center;
+align-items: center;
+}
+
+.top-nav .region-topnav,
+.top-nav .menu {
+display: flex;
 align-items: center;
 }
 

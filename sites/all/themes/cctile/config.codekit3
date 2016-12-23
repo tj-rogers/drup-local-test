@@ -51,6 +51,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/css\/flickity.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/flickity-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/css\/ie.css": {
 		"aP": 0,
 		"bl": 0,
@@ -58,6 +68,26 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/ie-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/jquery.bxslider.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/jquery.bxslider-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/nav-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/nav-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -240,6 +270,24 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/js\/min\/cct-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/flickity.pkgd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/flickity.pkgd-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/js\/jquery.bxslider.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/min\/jquery.bxslider-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

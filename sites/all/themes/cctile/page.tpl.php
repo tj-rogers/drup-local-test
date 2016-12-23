@@ -97,7 +97,11 @@
 	
     	<div class="content-wrap">
 		
-			<?php if($page['contenttop']){ print render($page['contenttop']); } ?>
+			<?php if($page['contenttop']){ ?>
+				<div class="content-top">
+					<?php echo render($page['contenttop']); ?>
+				</div>
+			<?php } ?>
 		
 			<div class="content-area <?php if($page['sidebar']){ echo 'has-sidebar'; } ?>">
 				<?php print $messages; ?>

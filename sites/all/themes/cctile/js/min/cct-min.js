@@ -1,1 +1,1 @@
-jQuery(function($){$(".mobile-nav-activate").on("click",function(e){e.preventDefault(),$(".mobile-nav").toggleClass("is-active")}),$(".mobile-nav-close").on("click",function(e){e.preventDefault(),$(".mobile-nav").removeClass("is-active")}),$(".testimonials-listing-homepage .view-content").owlCarousel({items:1,singleItem:!0,loop:!0,nav:!0,navText:["<i class='fa fa-angle-left fa-2x'></i>","<i class='fa fa-angle-right fa-2x'></i>"]})});
+jQuery(function($){$(".testimonials-listing-homepage .view-content").flickity()});

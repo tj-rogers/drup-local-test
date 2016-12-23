@@ -229,7 +229,7 @@ z-index: 1;
 margin-bottom: 6em;
 }
 
-.feat {
+.feat-box {
 position: relative;
 background: #fff url("/sites/all/themes/cctile/images/bkd-hp-ct-box.jpg") no-repeat;	
 background-position: 140% 50%;
@@ -238,7 +238,7 @@ padding: 3em 2em 3em 6em;
 box-shadow: 0 0.5em 1.5em #5e8c96;
 }
 
-.feat:after {
+.feat-box:after {
 position: absolute;
 top: 0;
 left: 41%;
@@ -380,37 +380,33 @@ text-align: center;
 margin-bottom: 1.5em;
 }
 
-.projects-grid,
-.proj-container {
+.project-listing .view-content,
+.project-listing .views-row {
 display: flex;
 }
 
-.projects-grid {
+.project-listing .view-content {
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between;
 }
 
-.proj-container {
+.project-listing .views-row {
 width: 49%;
 margin: 0.75em 0;
 align-items: center;
 height: 17.5em;
 position: relative;
-/background: #ccc;
-}
-
-.proj-container {
 cursor: pointer;
 }
 
-.proj-container .proj-content,
-.proj-container .proj-image-container {
+.proj-content,
+.proj-image-container {
 transition: 0.2s;
 }
 
-.proj-container:hover .proj-content,
-.proj-container:hover .proj-image-container {
+.project-listing .views-row:hover .proj-content,
+.project-listing .views-row:hover .proj-image-container {
 width: 50%;  
 }
 
@@ -500,7 +496,7 @@ z-index: 4;
 }
 
 .proj-image img {
-display: none;
+/display: none;
 }
 
 .proj-cat-title {

@@ -25,7 +25,7 @@ stylesheets[all][] = css/products.css
 stylesheets[all][] = css/projects.css
 stylesheets[all][] = css/about.css
 stylesheets[all][] = css/news.css
-stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/flickity.css
 
-scripts[] = js/owl.carousel.js
+scripts[] = js/flickity.pkgd.js
 scripts[] = js/cct.js
