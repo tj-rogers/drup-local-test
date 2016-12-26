@@ -17,6 +17,10 @@ position: relative;
 font-family: "Times New Roman", Georgia, Serif;
 }
 
+* {
+box-sizing: border-box;
+}
+
 a {
 text-decoration: none;
 transition: 0.2s;
@@ -173,7 +177,7 @@ padding: 2em 2em 21em;
 margin: 0;
 text-align: center;
 position: relative;
-z-index: 1;
+z-index: 0;
 }
 
 .header-wrap-outer * {
@@ -207,6 +211,7 @@ color: #fff;
 }
 
 .feature-area {
+position: relative;
 transform: translateY(5em);	
 }
 
@@ -225,7 +230,7 @@ padding: 0.75em 1.5em;
 .content-top {
 position: relative;
 margin-top: -13em;
-z-index: 1;
+z-index: 50;
 margin-bottom: 6em;
 }
 
@@ -337,8 +342,9 @@ vertical-align: top;
 }
 
 .content-area {
-/width: 90%;
-/padding: 0 5%;
+width: 100%;
+padding: 0 5%;
+
 }
 
 .content-area.has-sidebar {
@@ -487,7 +493,7 @@ transition: 0.2s;
 
 .project-listing .views-row:hover .proj-image {
 transform: scale(1.75);	
-top: 3.25em;
+top: 5em;
 left: 0;
 }
 
@@ -549,6 +555,7 @@ font-family: sans-serif;
 letter-spacing: 2px;
 position: relative;
 font-size: 1.25em;
+font-weight: bold;
 }
 
 .proj-content-title:before {
@@ -702,7 +709,7 @@ position: relative;
 color: #333;
 }
 
-.footer-nav {
+.footer-wrap .region-footer {
 display: flex;
 justify-content: space-around;
 margin-bottom: 4em;
@@ -710,6 +717,7 @@ margin-bottom: 4em;
 
 .footer-nav-section {
 padding: 0 2em;
+/width: 33%;
 }
 
 .footer-wrap {
@@ -751,4 +759,4 @@ text-decoration: underline;
 
 .site-info a:hover {
 color: #b7ff5d;
-}
+}	

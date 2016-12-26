@@ -82,11 +82,11 @@
 			<?php print render($page['topnav']); ?>
 		</div><!-- end of topNav -->
 		
-		<?php if($page['feature']){ ?>
-			<div class="feature-wrap">
-				<?php echo render($page['feature']); ?>
-			</div>
-		<?php } ?>
+		<div class="feature-wrap">
+			<?php if ($title): ?><h1 class="title" id="page-title"><?php if(isset($node) && $node->type == 'staff_bio'){ echo $node->field_first_name['und']['0']['value'].' '; } ?><?php print $title; ?></h1><?php endif; ?>
+			<?php echo render($page['feature']); ?>
+		</div>
+		
 	</div><!-- end of headrerWrap -->
 </div><!-- end of headrerWrapOuter -->
 
@@ -105,7 +105,6 @@
 		
 			<div class="content-area <?php if($page['sidebar']){ echo 'has-sidebar'; } ?>">
 				<?php print $messages; ?>
-				<?php if ($title): ?><h1 class="title" id="page-title"><?php if(isset($node) && $node->type == 'staff_bio'){ echo $node->field_first_name['und']['0']['value'].' '; } ?><?php print $title; ?></h1><?php endif; ?>
 				<?php print render($page['content']); ?>
 			</div>
 			
@@ -118,11 +117,13 @@
 	</div><!-- end of pageWrap -->
 </div><!-- end of pageWrapOuter -->
 
-<div class="prefooter-wrap">
-	<div class="prefooter">
-		<?php print render($page['prefooter']); ?>
-	</div><!-- end of prefooter -->
-</div>
+<?php if($page['prefooter']){ ?>
+	<div class="prefooter-wrap">
+		<div class="prefooter">
+			<?php print render($page['prefooter']); ?>
+		</div><!-- end of prefooter -->
+	</div>
+<?php } ?>
 
 <div class="footer-wrap-outer">
 	<div class="footer-wrap">

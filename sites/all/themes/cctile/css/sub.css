@@ -17,3 +17,81 @@ background: #c00;
 color: #fff;
 font-size: 0.7em;
 }
+
+
+/* --------------------------------------------- ABOUT -- */
+.team-listing {
+  
+}
+
+.team-listing .views-row {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+
+.team-listing .views-row-even {
+flex-direction: row-reverse;
+}
+
+.team-listing .views-row + .views-row {
+margin-top: 5em;  
+}
+
+.team-listing .views-field-field-bio-text,
+.team-listing .views-field-field-bio-photo {
+width: 50%;  
+}
+
+.team-listing .views-field-field-bio-photo img {
+box-shadow: 0 0em 1em #5e8c96;
+}
+
+.team-listing .views-field-field-bio-text {
+border: 0.4em solid #ccb24c;
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 2.75em 2em;
+transform: scale(1.05) translate(0.75em,-0.25em);
+}
+
+.team-listing .views-row-even .views-field-field-bio-text {
+transform: scale(1.05) translate(-0.75em,-0.25em);
+}
+
+.team-bio-text {
+max-width: 75%;
+margin: 0 auto;
+}
+
+.team-bio-name,
+.team-bio-position {
+text-transform: uppercase;
+}
+
+.team-bio-name {
+font-size: 1.5em;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.team-listing .views-field-field-bio-text .team-bio-position {
+color: #c34943;
+font-style: italic;
+font-family: serif;
+margin: 0 0 1em;
+
+}
+
+
+
+
+
+
+
+
+
+

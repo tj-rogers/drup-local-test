@@ -16,10 +16,20 @@
 		"oF": 0
 		},
 	"\/config.rb": {
-		"ft": 131072,
+		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/config.rb",
 		"oF": 0
+		},
+	"\/css\/about.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/about-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/css\/core-min.css": {
 		"aP": 0,
@@ -128,6 +138,16 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/css\/screen-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/sub-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/sub-min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
