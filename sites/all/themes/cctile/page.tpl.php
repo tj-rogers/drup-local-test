@@ -93,8 +93,6 @@
 <div class="page-wrap-outer">
 	<div class="page-wrap">	
 	
-		<?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
-	
     	<div class="content-wrap">
 		
 			<?php if($page['contenttop']){ ?>
@@ -102,6 +100,8 @@
 					<?php echo render($page['contenttop']); ?>
 				</div>
 			<?php } ?>
+
+			<?php if ($tabs): ?><div class="tabs"><?php print render($tabs); ?></div><?php endif; ?>
 		
 			<div class="content-area <?php if($page['sidebar']){ echo 'has-sidebar'; } ?>">
 				<?php print $messages; ?>
