@@ -19,6 +19,24 @@ font-size: 0.7em;
 }
 
 
+/* --------------------------------------------- CONTENT TOP BOXES -- */
+/* ----- CONTACT ----- */
+.page-node-3 .feat-box {
+background: #fff url("/sites/all/themes/cctile/images/bkd-ct-box-contact.jpg") no-repeat;	
+background-position: 140% 50%;
+background-size: 70%;
+padding: 3em 2em 3em 6em;
+}
+
+/* ----- ABOUT ----- */
+.page-node-5 .feat-box {
+background: #fff url("/sites/all/themes/cctile/images/bkd-ct-box-about.jpg") no-repeat;	
+background-position: 140% 50%;
+background-size: 70%;
+padding: 3em 2em 3em 6em;
+}
+
+
 /* --------------------------------------------- ABOUT -- */
 .team-listing {
   
@@ -86,7 +104,42 @@ margin: 0 0 1em;
 }
 
 
-/* --------------------------------------------- CONTACT FORM -- */
+/* --------------------------------------------- CONTACT -- */
+.feat-box-contact {
+position: relative;  
+}
+
+.feat-box-contact .contact-loc-address,
+.feat-box-contact .contact-loc-phone {
+display: flex;
+align-items: center;
+}
+
+.feat-box-contact .contact-loc-address-number,
+.feat-box-contact .contact-loc-phone-number {
+margin-top: 0;
+}
+
+.feat-box-contact .contact-loc-address-icon,
+.feat-box-contact .contact-loc-phone-icon {
+margin-right: 0.5em;
+line-height: 1;
+color: #ccb24c;
+font-size: 2em
+}
+
+.feat-box-contact .btn {
+position: absolute;
+right: 2em;
+bottom: 2em;
+z-index: 1;
+padding: 1em 3em;
+box-shadow: 0 0 1.5em #5e8c96;
+box-shadow: 0 0 1em #888;
+}
+
+
+/* ----- CONTACT FORM ----- */
 .page-node-3 .field-name-body .field-item {
 width: 80%;
 margin: 0 auto;

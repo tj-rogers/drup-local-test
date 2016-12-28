@@ -424,6 +424,15 @@ transition: 0.2s;
 width: 50%;  
 }
 
+.proj-node-link {
+position: absolute;
+top: 0;
+left: 0;
+z-index: 8;
+width: 100%;
+height: 100%;
+}
+
 
 /* --------------------------------------------- PROJECT IMAGE & TITLE -- */
 .proj-image-container {
@@ -493,10 +502,11 @@ z-index: 4;
 position: absolute;
 width: 100%;
 height: 100%;
-top: -1em;
+top: -1.75em;
 left: 0;
 z-index: 0;
 transition: 0.2s;
+transform: scale(1.25);
 }
 
 .project-listing .views-row:hover .proj-image {
